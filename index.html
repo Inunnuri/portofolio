@@ -104,7 +104,7 @@
         <div class="flex flex-wrap">
           <div class="with-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary lg:text-xl">
-              Halo semua ☺️, saya
+              Hai, I'm
               <span
                 class="block font-bold text-white text-4xl mt-1 md:text-xl lg:text-6xl"
               >
@@ -113,16 +113,14 @@
             </h1>
             <!-- windows + . = emoji -->
             <h2 class="font-medium text-white text-lg mb-5 lg:text-xl">
-              Back End Developer
+              Web Designer & Developer
             </h2>
-            <p class="font-medium text-gray-400 mb-10">
-              Ini adalah portofolio saya
-            </p>
+            <p class="font-medium text-gray-400 mb-10">This is my portfolio</p>
 
             <a
               href="https://wa.me/6281944180701"
               class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
-              >Hubungi Saya
+              >Contact Me
             </a>
           </div>
           <!-- konten kanan -->
@@ -151,36 +149,38 @@
               About Me
             </h4>
             <h2 class="font-bold text-dark text-4xl mb-3 lg:text-5xl lg:pb-5">
-              Selamat datang di website portofolio saya!
+              Welcome on my portfolio website
             </h2>
             <p class="font-medium text-base text-gray-600 mb-10 lg:text-lg">
-              Saya Inun Nuria Fitriana, seorang developer backend yang berfokus
-              pada pengembangan aplikasi menggunakan Laravel. Dengan pengalaman
-              yang luas dalam membangun dan mengelola backend sistem, saya
-              memiliki keahlian dalam menangani berbagai tantangan teknis dan
-              memastikan performa aplikasi yang optimal. Saya juga terbiasa
-              bekerja dengan teknologi seperti Tailwind CSS untuk frontend,
-              serta memanfaatkan alat-alat seperti VS Code dan Laragon untuk
-              mendukung pengembangan. Komitmen saya adalah untuk terus belajar
-              dan berkembang dalam dunia teknologi yang selalu berubah.
+              I am Inun Nuria Fitriana, a developer and web designer focused on
+              application development using Laravel and interface design with
+              Figma. With extensive experience in building and managing backend
+              systems, I have expertise in handling various technical challenges
+              and ensuring optimal application performance. Additionally, I am
+              skilled in creating engaging and functional web interfaces using
+              Figma, and I am familiar with technologies like Tailwind CSS for
+              the frontend. I also utilize tools such as VS Code and Laragon to
+              support the development process. My commitment is to continuously
+              learn and grow in the ever-evolving world of technology and
+              design.
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3
               class="font-semibold text-dark text-2xl mb-3 lg:text-3xl lg:pt-10"
             >
-              Hubungi saya
+              Contact me
             </h3>
             <p class="font-medium text-base text-gray-600 lg:text-lg lg:pb-3">
-              Jika Anda tertarik untuk berkolaborasi, memiliki pertanyaan, atau
-              ingin mengetahui lebih lanjut tentang proyek-proyek saya, jangan
-              ragu untuk menghubungi saya.
+              If you are interested in collaborating, have any questions, or
+              want to learn more about my projects, please feel free to contact
+              me.
             </p>
             <p
               class="font-medium text-base text-gray-600 mb-2 lg:text-lg lg:pb-3"
             >
-              Saya selalu terbuka untuk berdiskusi tentang peluang kerja sama
-              dan proyek-proyek menarik di bidang pengembangan web.
+              I am always open to discussing collaboration opportunities and
+              exciting projects in the field of web development.
             </p>
             <div class="flex items-center">
               <!-- svg github -->
@@ -299,17 +299,81 @@
 
     <!-- portofolio section start -->
     <section id="portofolio" class="pt-10 pb-10 bg-dark">
-      <div class="container mx-auto">
+      <section class="container mx-auto">
         <div class="px-4">
           <div class="max-w-xl mx-auto text-center">
             <h4 class="font-semibold text-xl text-primary mb-2">Portofolio</h4>
             <h2 class="font-bold text-white text-4xl lg:text-6xl mb-3">
-              Project Terbaru
+              Lastest Projects
             </h2>
-            <p class="font-medium text-md md:text-lg text-gray-300 mb-2">
-              Berikut project yang pernah saya kerjakan menggunakan laravel:
-            </p>
+            <div class="inline-flex space-x-3 mt-2">
+              <button
+                id="showDesign"
+                class="font-semibold text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded"
+              >
+                Web Design
+              </button>
+              <button
+                id="showDevelop"
+                class="font-semibold text-white bg-green-500 hover:bg-green-600 px-4 py-2 rounded ml-4"
+              >
+                Website
+              </button>
+            </div>
+            <hr class="border-collapse mt-2 mb-4" />
           </div>
+        </div>
+      </section>
+
+      <!-- portofolio design -->
+      <div id="portofolio_design" class="px-4 max-w-xl mx-auto text-center">
+        <div class="flex">
+          <p class="font-medium text-md md:text-lg text-gray-300 mb-2">
+            Here are the projects I have worked on using Figma:
+          </p>
+        </div>
+
+        <div class="mb-12 p-4 bg-primary bg-opacity-20 rounded-lg">
+          <div
+            class="relative w-full h-48 rounded-md shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 space-y-4"
+          >
+            <img
+              src="img/Wisaadhome-Homepage-Dekstop.png"
+              alt="Blog"
+              width="object-cover w-full h-full lg:w-3/4"
+            />
+            <img
+              src="img/Wisaadhome-Homepage-Mobile.png"
+              alt="Blog"
+              width="object-cover w-full h-full"
+            />
+          </div>
+          <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+            Wisaadhome Blog
+          </h3>
+          <p class="font-md text-base text-gray-300 mb-2">
+            Wisaadhome is a digital platform designed to make it easy for users
+            to buy, sell, or rent properties. Whether you are a property owner
+            looking to sell or rent a house, apartment, or land, or a property
+            seeker searching for a home or investment, Wisaadhome provides
+            everything you need.
+          </p>
+          <a href="img/wisaadhome_figma.pdf" download="wisaadhome figma.pdf">
+            <button
+              class="font-medium bg-primary text-white px-4 py-2 hover:underline hover:bg-dark"
+            >
+              Download PDF
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- portofolio website -->
+      <div id="portofolio_develop" class="px-4 max-w-xl mx-auto text-center">
+        <div class="flex">
+          <p class="font-medium text-md md:text-lg text-gray-300 mb-2">
+            Here are the projects I have worked on using Laravel:
+          </p>
         </div>
 
         <div class="grid lg:grid-cols-2 gap-6">
@@ -319,47 +383,45 @@
               <img src="img/wisaad.jpg" alt="Blog" width="w-full" />
             </div>
             <h3 class="font-semibold text-xl text-white mt-5 mb-3">
-              Blog Wisaadhome
+              Wisaadhome Blog
             </h3>
             <p class="font-md text-base text-gray-300 mb-2">
-              Wisaadhome adalah platform digital yang dirancang untuk memudahkan
-              pengguna dalam menawarkan jual beli atau sewa properti. Baik Anda
-              pemilik properti yang ingin menjual atau menyewakan rumah,
-              apartemen, atau lahan, maupun pencari properti yang sedang mencari
-              tempat tinggal atau investasi, Wisaadhome menyediakan semua yang
-              Anda butuhkan.
+              Wisaadhome is a digital platform designed to make it easy for
+              users to buy, sell, or rent properties. Whether you are a property
+              owner looking to sell or rent a house, apartment, or land, or a
+              property seeker searching for a home or investment, Wisaadhome
+              provides everything you need.
             </p>
             <p class="font-md text-base text-gray-300 mb-2">
-              Di Wisaadhome, pengguna dapat:
+              On Wisaadhome, users can:
             </p>
             <ul class="font-md text-base text-gray-300 mb-2">
               <li>
-                <strong>Menawarkan Properti:</strong> Pasang iklan properti Anda
-                dengan informasi lengkap dan foto berkualitas tinggi untuk
-                menarik calon pembeli atau penyewa.
+                <strong>Offer Properties:</strong> Post your property listings
+                with complete information and high-quality photos to attract
+                potential buyers or renters.
               </li>
               <li>
-                <strong>Mencari Properti:</strong> Jelajahi daftar properti yang
-                tersedia dengan berbagai filter seperti lokasi, harga, dan jenis
-                properti untuk menemukan yang sesuai dengan kebutuhan Anda.
+                <strong>Find Properties:</strong> Browse available property
+                listings with various filters such as location, price, and
+                property type to find one that fits your needs.
               </li>
               <li>
-                <strong>Kontak Langsung:</strong> Fitur pesan dan panggilan
-                langsung yang memudahkan komunikasi antara pemilik dan calon
-                pembeli atau penyewa.
+                <strong>Direct Contact:</strong> Messaging and calling features
+                that make it easy to communicate between property owners and
+                potential buyers or renters.
               </li>
               <li>
-                <strong>Tips dan Artikel:</strong> Dapatkan informasi terbaru
-                tentang tren pasar properti, tips untuk penjual dan pembeli,
-                serta panduan tentang proses jual beli dan sewa.
+                <strong>Tips and Articles:</strong> Get the latest information
+                on property market trends, tips for sellers and buyers, and
+                guides on the buying, selling, and renting process.
               </li>
             </ul>
             <p class="font-md text-base text-gray-300 mb-2">
-              Wisaadhome bertujuan untuk menjadi sumber terpercaya dan solusi
-              mudah bagi semua kebutuhan properti Anda, dengan antarmuka yang
-              ramah pengguna dan proses yang transparan. Bergabunglah dengan
-              komunitas kami dan temukan atau tawarkan properti impian Anda
-              dengan mudah dan cepat.
+              Wisaadhome aims to be a trusted source and an easy solution for
+              all your property needs, with a user-friendly interface and a
+              transparent process. Join our community and easily and quickly
+              find or offer your dream property.
             </p>
 
             <div class="w-full max-w-md mx-auto mt-4 mb-6">
@@ -430,41 +492,38 @@
             </div>
             <h3 class="font-semibold text-xl text-white mt-5 mb-3">Baiklist</h3>
             <p class="font-md text-base text-gray-300 mb-2">
-              Baiklist adalah aplikasi to-do list yang memudahkan pengguna untuk
-              mengelola tugas sehari-hari dengan fitur filter berdasarkan
-              tanggal dan status tugas.
+              Baiklist is a to-do list application that helps users manage their
+              daily tasks with features like filtering by date and task status.
             </p>
             <p class="font-md text-base text-gray-300 mb-2">
-              Fitur utama Baiklist meliputi:
+              Key features of Baiklist include:
             </p>
             <ul class="font-md text-base text-gray-300 mb-2">
               <li>
-                <strong>Antarmuka yang Ramah Pengguna:</strong> Desain yang
-                bersih dan mudah digunakan memastikan pengalaman pengguna yang
-                menyenangkan.
+                <strong>User-Friendly Interface:</strong> A clean and
+                easy-to-use design ensures an enjoyable user experience.
               </li>
               <li>
-                <strong>Pengelompokan Tugas:</strong> Pengguna dapat
-                mengelompokkan tugas berdasarkan kategori, frequensi,
-                status,calendar atau tenggat waktu.
+                <strong>Task Grouping:</strong> Users can group tasks by
+                categories, frequency, status, calendar, or deadlines.
               </li>
               <li>
-                <strong>Pengingat dan Notifikasi:</strong> Fitur pengingat
-                membantu pengguna tetap pada jalur dengan mengirimkan notifikasi
-                untuk tugas-tugas penting.
+                <strong>Reminders and Notifications:</strong> The reminder
+                feature helps users stay on track by sending notifications for
+                important tasks.
               </li>
               <li>
-                <strong>Integrasi Kalender:</strong> Tugas dapat diintegrasikan
-                dengan kalender untuk memberikan gambaran keseluruhan jadwal.
+                <strong>Calendar Integration:</strong> Tasks can be integrated
+                with a calendar to provide an overview of the schedule.
               </li>
               <li>
-                <strong>Mode Gelap/Cerah:</strong> Opsi untuk mode gelap atau
-                cerah untuk kenyamanan visual sesuai preferensi pengguna.
+                <strong>Dark/Light Mode:</strong> Options for dark or light mode
+                for visual comfort based on user preferences.
               </li>
             </ul>
             <p class="font-md text-base text-gray-300 mb-2">
-              Baiklist membantu pengguna untuk lebih teratur dan produktif
-              dengan tampilan yang sederhana dan mudah digunakan.
+              Baiklist helps users stay organized and productive with a simple
+              and easy-to-use interface.
             </p>
 
             <div class="w-full max-w-md mx-auto mt-4 mb-6">
@@ -571,11 +630,13 @@
     <!-- clients section end -->
 
     <!-- blog section start -->
-    <!-- <section id="blog" class="pt-36 pb-16 bg-slate-200">
+    <!-- <section id="portofolio_design" class="pt-36 pb-16 bg-slate-200">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-xl text-primary mb-3">Blog</h4>
+            <h4 class="font-semibold text-xl text-primary mb-3">
+              Portofolio Design
+            </h4>
             <h2 class="font-bold text-dark text-4xl lg:text-6xl mb-3">
               Tulisan Terkini
             </h2>
@@ -761,5 +822,28 @@
     <!-- contact end -->
 
     <script src="dist/js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const portofolioDesign = document.getElementById("portofolio_design");
+        const portofolioDevelop = document.getElementById("portofolio_develop");
+        const showDesignBtn = document.getElementById("showDesign");
+        const showDevelopBtn = document.getElementById("showDevelop");
+
+        // Default: Sembunyikan salah satu
+        portofolioDevelop.style.display = "none";
+
+        // Tampilkan Figma, Sembunyikan Laravel
+        showDesignBtn.addEventListener("click", function () {
+          portofolioDesign.style.display = "block";
+          portofolioDevelop.style.display = "none";
+        });
+
+        // Tampilkan Laravel, Sembunyikan Figma
+        showDevelopBtn.addEventListener("click", function () {
+          portofolioDevelop.style.display = "block";
+          portofolioDesign.style.display = "none";
+        });
+      });
+    </script>
   </body>
 </html>
